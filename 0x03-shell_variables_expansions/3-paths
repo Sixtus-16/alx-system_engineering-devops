@@ -1,4 +1,5 @@
 #!/bin/bash
-echo $(('echo $PATH | grep -o
+echo $((' echo $PATH | grep -o ":/" | wc -l' +1))
+
 
 
