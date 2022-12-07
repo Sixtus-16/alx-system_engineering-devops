@@ -1,4 +1,5 @@
 #!/bin/bash
-echo $(($POWER / $DIVIDE))
+tail -lines=1 iacta >> iacta
+
 
 
